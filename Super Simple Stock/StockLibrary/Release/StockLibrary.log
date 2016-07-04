@@ -1,0 +1,16 @@
+﻿  stdafx.cpp
+  dllmain.cpp
+  StockExchange.cpp
+  StockLibrary.cpp
+  SimpleStockService.cpp
+  AbstractStock.cpp
+  CommonStock.cpp
+  PreferredStock.cpp
+  SimpleTrade.cpp
+     Creating library C:\Deepthee\Hitesh\SST\Simple Stock\Super Simple Stock\Release\StockLibrary.lib and object C:\Deepthee\Hitesh\SST\Simple Stock\Super Simple Stock\Release\StockLibrary.exp
+  Generating code
+  720 of 720 functions (100.0%) were compiled, the rest were copied from previous compilation.
+    141 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  StockLibrary.vcxproj -> C:\Deepthee\Hitesh\SST\Simple Stock\Super Simple Stock\Release\StockLibrary.dll

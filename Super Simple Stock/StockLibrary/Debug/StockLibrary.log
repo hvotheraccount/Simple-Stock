@@ -1,0 +1,12 @@
+﻿  stdafx.cpp
+  dllmain.cpp
+  SimpleTrade.cpp
+  PreferredStock.cpp
+  CommonStock.cpp
+  AbstractStock.cpp
+  SimpleStockService.cpp
+  StockLibrary.cpp
+  StockExchange.cpp
+  Generating Code...
+     Creating library C:\Deepthee\Hitesh\SST\Simple Stock\Super Simple Stock\Debug\StockLibrary.lib and object C:\Deepthee\Hitesh\SST\Simple Stock\Super Simple Stock\Debug\StockLibrary.exp
+  StockLibrary.vcxproj -> C:\Deepthee\Hitesh\SST\Simple Stock\Super Simple Stock\Debug\StockLibrary.dll
