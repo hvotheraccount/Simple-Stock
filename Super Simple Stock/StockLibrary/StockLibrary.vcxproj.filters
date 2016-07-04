@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Stock">
+      <UniqueIdentifier>{e311f448-b182-4378-9457-d8e38dc9191e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stock">
+      <UniqueIdentifier>{40c50c49-3425-4972-a5c0-83ece097354b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Trade">
+      <UniqueIdentifier>{074d958a-6dbc-40aa-ace4-4b7f81ab9c1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Trade">
+      <UniqueIdentifier>{7948996a-7229-4e1e-ae1a-cda855fced5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Exchange">
+      <UniqueIdentifier>{cf914c00-0f14-44e9-91c9-53184cc17557}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exchange">
+      <UniqueIdentifier>{34949f73-e13b-4a74-937f-c3f548e6b7b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\StockService">
+      <UniqueIdentifier>{7dadaccf-570a-499e-b3ee-8d5fc8d66ddd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StockService">
+      <UniqueIdentifier>{ec7d9a2c-79ed-45c2-8916-7502e9548bcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Exceptions">
+      <UniqueIdentifier>{97dea46d-5813-45b8-b297-c7016418bea4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Exchange\StockExchange.h">
+      <Filter>Header Files\Exchange</Filter>
+    </ClInclude>
+    <ClInclude Include="Stock\AbstractStock.h">
+      <Filter>Header Files\Stock</Filter>
+    </ClInclude>
+    <ClInclude Include="Stock\CommonStock.h">
+      <Filter>Header Files\Stock</Filter>
+    </ClInclude>
+    <ClInclude Include="Stock\PreferredStock.h">
+      <Filter>Header Files\Stock</Filter>
+    </ClInclude>
+    <ClInclude Include="Stock\Stock.h">
+      <Filter>Header Files\Stock</Filter>
+    </ClInclude>
+    <ClInclude Include="StockService\SimpleStockService.h">
+      <Filter>Header Files\StockService</Filter>
+    </ClInclude>
+    <ClInclude Include="StockService\StockService.h">
+      <Filter>Header Files\StockService</Filter>
+    </ClInclude>
+    <ClInclude Include="Trade\Trade.h">
+      <Filter>Header Files\Trade</Filter>
+    </ClInclude>
+    <ClInclude Include="Exceptions\Exceptions.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="Trade\SimpleTrade.h">
+      <Filter>Header Files\Trade</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StockLibrary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Exchange\StockExchange.cpp">
+      <Filter>Source Files\Exchange</Filter>
+    </ClCompile>
+    <ClCompile Include="Stock\AbstractStock.cpp">
+      <Filter>Source Files\Stock</Filter>
+    </ClCompile>
+    <ClCompile Include="Stock\CommonStock.cpp">
+      <Filter>Source Files\Stock</Filter>
+    </ClCompile>
+    <ClCompile Include="Stock\PreferredStock.cpp">
+      <Filter>Source Files\Stock</Filter>
+    </ClCompile>
+    <ClCompile Include="StockService\SimpleStockService.cpp">
+      <Filter>Source Files\StockService</Filter>
+    </ClCompile>
+    <ClCompile Include="Trade\SimpleTrade.cpp">
+      <Filter>Source Files\Trade</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

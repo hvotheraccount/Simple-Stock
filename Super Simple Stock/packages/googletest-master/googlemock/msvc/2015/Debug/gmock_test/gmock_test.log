@@ -1,0 +1,26 @@
+﻿  gmock_all_test.cc
+C:\Deepthee\Hitesh\SST\Super Simple Stock\packages\googletest-master\googlemock\include\gmock/gmock-matchers.h(555): error C2440: 'return': cannot convert from 'const testing::internal::EqMatcher<testing::gmock_matchers_test::ConvertibleFromAny>' to 'testing::Matcher<testing::gmock_matchers_test::ConvertibleFromAny>'
+  C:\Deepthee\Hitesh\SST\Super Simple Stock\packages\googletest-master\googlemock\include\gmock/gmock-matchers.h(555): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+  C:\Deepthee\Hitesh\SST\Super Simple Stock\packages\googletest-master\googlemock\include\gmock/gmock-matchers.h(546): note: while compiling class template member function 'testing::Matcher<testing::gmock_matchers_test::ConvertibleFromAny> testing::internal::MatcherCastImpl<T,M>::CastImpl(const M &,testing::internal::BooleanConstant<true>)'
+          with
+          [
+              T=testing::gmock_matchers_test::ConvertibleFromAny,
+              M=testing::internal::EqMatcher<testing::gmock_matchers_test::ConvertibleFromAny>
+          ]
+  C:\Deepthee\Hitesh\SST\Super Simple Stock\packages\googletest-master\googlemock\include\gmock/gmock-matchers.h(531): note: see reference to function template instantiation 'testing::Matcher<testing::gmock_matchers_test::ConvertibleFromAny> testing::internal::MatcherCastImpl<T,M>::CastImpl(const M &,testing::internal::BooleanConstant<true>)' being compiled
+          with
+          [
+              T=testing::gmock_matchers_test::ConvertibleFromAny,
+              M=testing::internal::EqMatcher<testing::gmock_matchers_test::ConvertibleFromAny>
+          ]
+  C:\Deepthee\Hitesh\SST\Super Simple Stock\packages\googletest-master\googlemock\include\gmock/gmock-matchers.h(611): note: see reference to class template instantiation 'testing::internal::MatcherCastImpl<T,M>' being compiled
+          with
+          [
+              T=testing::gmock_matchers_test::ConvertibleFromAny,
+              M=testing::internal::EqMatcher<testing::gmock_matchers_test::ConvertibleFromAny>
+          ]
+  C:\Deepthee\Hitesh\SST\Super Simple Stock\packages\googletest-master\googlemock\test/gmock-matchers_test.cc(638): note: see reference to function template instantiation 'testing::Matcher<testing::gmock_matchers_test::ConvertibleFromAny> testing::MatcherCast<testing::gmock_matchers_test::ConvertibleFromAny,testing::internal::EqMatcher<testing::gmock_matchers_test::ConvertibleFromAny>>(const M &)' being compiled
+          with
+          [
+              M=testing::internal::EqMatcher<testing::gmock_matchers_test::ConvertibleFromAny>
+          ]
