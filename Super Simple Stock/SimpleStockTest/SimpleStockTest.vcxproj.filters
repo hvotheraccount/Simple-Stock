@@ -18,22 +18,22 @@
     <ClCompile Include="Main_TestAll.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TradeTest.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="CommonStockTest.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="PreferredStockTest.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="StockExchangeTest.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Mocks.h">
       <Filter>Header Files</Filter>
     </ClCompile>
-    <ClCompile Include="StockServiceTest.cpp">
+    <ClCompile Include="ExchangeTest\StockExchangeTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StockServiceTest\StockServiceTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StockTest\CommonStockTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StockTest\PreferredStockTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TradeTest\TradeTest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

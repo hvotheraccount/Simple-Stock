@@ -77,13 +77,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ExchangeTest\StockExchangeTest.cpp" />
     <ClCompile Include="Main_TestAll.cpp" />
-    <ClCompile Include="CommonStockTest.cpp" />
     <ClCompile Include="Mocks.h" />
-    <ClCompile Include="PreferredStockTest.cpp" />
-    <ClCompile Include="StockExchangeTest.cpp" />
-    <ClCompile Include="StockServiceTest.cpp" />
-    <ClCompile Include="TradeTest.cpp" />
+    <ClCompile Include="StockServiceTest\StockServiceTest.cpp" />
+    <ClCompile Include="StockTest\CommonStockTest.cpp" />
+    <ClCompile Include="StockTest\PreferredStockTest.cpp" />
+    <ClCompile Include="TradeTest\TradeTest.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\StockLibrary\StockLibrary.vcxproj">

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GtaTestDurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Executable>C:\Deepthee\Hitesh\SST\Super Simple Stock\Release\SimpleStockTest.exe</Executable>
+  <Executable>C:\Deepthee\Hitesh\SST\Simple Stock\Super Simple Stock\Release\SimpleStockTest.exe</Executable>
   <TestDurations>
+    <TestDuration Test="StockExchangeTest.getStockTest" Duration="2" />
+    <TestDuration Test="StockExchangeTest.getStocksTest" Duration="1" />
+    <TestDuration Test="StockServiceTest.getDividendYieldTest" Duration="1" />
+    <TestDuration Test="StockServiceTest.getPERatioTest" Duration="1" />
+    <TestDuration Test="StockServiceTest.getVWStockPriceTest" Duration="1" />
+    <TestDuration Test="StockServiceTest.calculateGBCEAllShareIndexTest" Duration="1" />
     <TestDuration Test="CommonStockTest.dividendYieldTest" Duration="1" />
     <TestDuration Test="CommonStockTest.peRatioTest" Duration="1" />
     <TestDuration Test="CommonStockTest.stockSymbolTest" Duration="1" />
@@ -10,12 +16,6 @@
     <TestDuration Test="PreferredStockTest.peRatioTest" Duration="1" />
     <TestDuration Test="PreferredStockTest.stockSymbolTest" Duration="1" />
     <TestDuration Test="PreferredStockTest.calculateVWStockPriceTest" Duration="1" />
-    <TestDuration Test="StockExchangeTest.getStockTest" Duration="2" />
-    <TestDuration Test="StockExchangeTest.getStocksTest" Duration="1" />
-    <TestDuration Test="StockServiceTest.getDividendYieldTest" Duration="1" />
-    <TestDuration Test="StockServiceTest.getPERatioTest" Duration="1" />
-    <TestDuration Test="StockServiceTest.getVWStockPriceTest" Duration="1" />
-    <TestDuration Test="StockServiceTest.calculateGBCEAllShareIndexTest" Duration="1" />
     <TestDuration Test="TradeTest.priceTest" Duration="1" />
     <TestDuration Test="TradeTest.quantityTest" Duration="1" />
     <TestDuration Test="TradeTest.timestampTest" Duration="1" />
